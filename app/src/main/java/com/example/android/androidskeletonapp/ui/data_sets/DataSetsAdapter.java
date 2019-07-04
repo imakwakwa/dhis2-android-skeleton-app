@@ -42,6 +42,5 @@ public class DataSetsAdapter extends PagedListAdapter<DataSet, ListItemWithStyle
         holder.subtitle1.setText(dataSet.periodType().toString());
         holder.icon.setImageResource(R.drawable.ic_view_list_black_24dp);
         StyleBinderHelper.bindStyle(holder, dataSet.style());
-        //setBackgroundColor(R.color.colorAccentDark, holder.icon);
     }
 }
